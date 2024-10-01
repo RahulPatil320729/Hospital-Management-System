@@ -1,0 +1,10 @@
+.custom-card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* WebKit-specific for clamping */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: block; /* Fallback for non-WebKit browsers */
+    line-clamp: 3; /* Standard property (currently not widely supported) */
+}
